@@ -27,5 +27,5 @@ const args = process.argv.slice(2);
 if (args[0] === 'init' && args[1]) {
   initProject(args[1]);
 } else {
-  console.log('Usage: npx reflect-api init <project-name>');
+  console.log('Usage npx reflect-cli init <project-name>');
 }
