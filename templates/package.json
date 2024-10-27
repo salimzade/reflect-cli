@@ -1,0 +1,42 @@
+{
+    "name": "package-name",
+    "version": "1.0.0",
+    "description": "my project description",
+    "main": "index.js",
+    "scripts": {
+      "build": "rimraf dist && babel src --out-dir dist  --copy-files",
+      "start": "node dist/index.js",
+      "dev": "nodemon --exec babel-node src/index.js"
+    },
+    "keywords": [
+      "graphql-api",
+      "quack",
+      "social-network"
+    ],
+    "author": "teymur.salimzade@gmail.com <reflect>",
+    "license": "ISC",
+    "dependencies": {
+      "bcrypt": "^5.1.1",
+      "cors": "^2.8.5",
+      "dotenv": "^16.4.5",
+      "express": "^4.21.1",
+      "express-graphql": "^0.12.0",
+      "graphql": "^15.9.0",
+      "graphql-http": "^1.22.1",
+      "jsonwebtoken": "^9.0.2",
+      "mongoose": "^8.7.2",
+      "morgan": "^1.10.0",
+      "nanoid": "^3.3.7"
+    },
+    "devDependencies": {
+      "@babel/cli": "^7.25.7",
+      "@babel/core": "^7.25.8",
+      "@babel/node": "^7.25.7",
+      "@babel/plugin-proposal-class-properties": "^7.18.6",
+      "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
+      "@babel/preset-env": "^7.25.8",
+      "nodemon": "^3.1.7",
+      "prettier": "^3.3.3",
+      "rimraf": "^6.0.1"
+    }
+  }
