@@ -1,5 +1,5 @@
 {
-    "name": "package-name",
+    "name": "reflect-cli",
     "version": "1.0.0",
     "description": "A CLI for creating Express projects",
     "main": "index.js",
