@@ -1,3 +1,5 @@
+import jwt from "jsonwebtoken";
+
 function interceptor(req) {
     const token = req.headers.authorization?.split(" ")[1];
     
