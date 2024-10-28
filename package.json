@@ -1,6 +1,6 @@
 {
     "name": "reflect-cli",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A CLI for creating Express projects",
     "main": "index.js",
     "scripts": {
